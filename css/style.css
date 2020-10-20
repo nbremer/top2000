@@ -1,0 +1,143 @@
+body {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+a, a:link, a:visited, a:active {
+  color: #CB272E;
+  border-bottom: 1px dotted rgba(203, 39, 46, .5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #CB272E;
+}
+
+a.image-link {
+	border-bottom: none;
+}
+
+.mobile {
+	display: none;
+}
+
+.outer-margin {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* --- Intro --- */
+
+#intro {
+	margin-top: 25px;
+}
+
+#intro h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	margin-bottom: 5px;
+}
+
+#intro .heart {
+	color: #CB272E;
+	font-size: 1.1em;
+}
+
+#intro p {
+	margin-top: 0px;
+	max-width: 800px;
+	line-height: 160%
+}
+
+/* --- Chart --- */
+
+.axis path, .axis .tick line {
+	display: none;
+}
+
+.axis text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	fill: #7F7F7F;
+	cursor: default;
+}
+
+.legend-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.song-size {
+	fill: #191919;
+}
+.song-legend-value {
+	font-family: 'Montserrat', sans-serif;
+	text-anchor: middle;
+}
+
+/* --- Tooltip --- */
+
+.tooltip-wrapper {
+	pointer-events: none;
+	text-anchor: middle;
+	text-shadow: 0 1px 3px white, 1px 0 3px white, -1px 0 3px white, 0 -1px 3px white;
+}
+
+.tooltip-background {
+	fill: #ededed;
+	opacity: 0.9;
+}
+
+.tooltip-song {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+}
+
+.tooltip-artist {
+	font-size: 12px;
+}
+
+.tooltip-rank {
+	font-size: 10px;
+}
+
+/* --- Credits --- */
+
+#credit {
+	padding-bottom: 25px;
+}
+
+#credit p {
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+.credit-bold {
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+.credit-divider {
+	color: #b7b7b7;
+	font-weight: 600;
+	font-size: 0.9em;
+	padding: 0px 5px;
+}
+
+.credit-note {
+	line-height: 140%;
+	font-size: 0.8em;
+	font-weight: 400;
+	/*color: #656565;*/
+}
+
+.credit-data-note {
+	max-width: 600px;
+	margin-top: 20px !important;
+	line-height: 170%;
+	font-size: 0.7em;
+	font-weight: 400;
+	color: #9B9B9B;	
+}
